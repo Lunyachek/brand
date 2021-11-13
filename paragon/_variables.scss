@@ -1,2 +1,14 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/edx/paragon/blob/master/scss/core/ for reference
+
+$primary: #ac72ac !default;
+$link-color: $primary !default;
+$black: #000;
+$white: #fff;
+
+$header-vertical-padding: 30px;
+$header-logo-height: 45px;
+
+$border-radius: 3px;
+
+$font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -1,0 +1,23 @@
+header.site-header-desktop {
+    box-shadow: 0 0 6px 0 rgba($black, .75);
+    padding: $header-vertical-padding 0;
+
+    .logo {
+        padding: 0;
+        top: 0;
+        height: $header-logo-height;
+        margin-right: 25px;
+    }
+
+    .main-nav .nav-link {
+        padding: 5px;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+
+        &:hover {
+            background: none;
+            color: darken($primary, 20%);
+        }
+    }
+}
