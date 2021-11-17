@@ -6,9 +6,20 @@ $link-color: $primary !default;
 $black: #000;
 $white: #fff;
 
+// common settings
+$container-width: 1230px;
+$border-radius: 3px;
+$font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// settings for header
 $header-vertical-padding: 30px;
 $header-logo-height: 45px;
 
-$border-radius: 3px;
-
-$font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// settings for footer
+$footer-logo-height: $header-logo-height;
+$footer-bg: #2a374a;
+$footer-nav-link-color: #fff;
+$footer-nav-link-color-hover: darken($footer-nav-link-color, 20%);
+$footer-support-text-and-logo: #fff;
+$footer-social-link-bg: #44b759;
+$footer-social-link-bg-hover: lighten($footer-social-link-bg, 20%);
