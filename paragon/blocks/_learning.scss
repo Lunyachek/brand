@@ -1,0 +1,31 @@
+.sequence-container {
+    width: 100%;
+}
+
+.sequence-navigation {
+    @media (max-width: 576px) {
+        width: calc(100% - 55px) !important;
+    }
+}
+
+.sequence-navigation-tabs {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+button.notification-trigger-btn {
+    @media (max-width: 576px) {
+        right: 0;
+        width: 51px;
+        margin-right: 0;
+    }
+}
+
+.pgn__data-table-layout-main {
+    max-width: 100%;
+}
+
+html[dir="rtl"] .upgrade-notification-ul {
+    margin-left: 2.5em !important;
+    margin-right: 0 !important;
+}
