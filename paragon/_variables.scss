@@ -1,7 +1,8 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/edx/paragon/blob/master/scss/core/ for reference
 
-$primary: #ac72ac !default;
+$primary: #ac2213 !default;
+$brand: $primary !default;
 $link-color: $primary !default;
 $black: #000;
 $white: #fff;
@@ -11,6 +12,7 @@ $inline-link-color: $primary;
 $container-width: 1230px;
 $border-radius: 3px;
 $font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$collapsible-card-spacer-icon: 1.5rem;
 
 // settings for header
 $header-vertical-padding: 30px;

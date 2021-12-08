@@ -1,8 +1,15 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
+// override general styles
 @import "./common";
 @import "./fonts";
+
+// override blocks
 @import "./blocks/header";
 @import "./blocks/footer";
 @import "./blocks/account";
+@import "./blocks/learning";
+
+// override paragon components
+@import "./components/Menu";

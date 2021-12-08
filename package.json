@@ -1,6 +1,6 @@
 {
-  "name": "@edx/brand-openedx",
-  "version": "1.0.0-semantically-released",
+  "name": "@edx/brand",
+  "version": "1.0.0",
   "description": "The default branding and SASS theme package containing for Open edX applications. This package is designed to be copied and customized.",
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
   "homepage": "https://github.com/edx/brand-openedx#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "build_ci": "rm -rf ./dist && ./node_modules/.bin/fedx-scripts babel src --out-dir dist --source-maps --ignore **/*.test.jsx,**/__mocks__,**/__snapshots__,**/setupTest.js --copy-files && rm -rf dist/**/*.test.jsx && rm -rf dist/**/__snapshots__ && rm -rf dist/__mocks__"
   }
 }
