@@ -1,3 +1,5 @@
+import { getConfig } from '@edx/frontend-platform';
+
 export { default as logoHeader } from './logo.svg'
 export { default as footerLogo } from './footerLogo.svg';
 export { default as svgSprite } from './svg-sprite.svg';
@@ -57,22 +59,22 @@ export const footerIcons = [
 
 export const footerLinks = [
     {
-        href: '/about-us',
+        href: `${getConfig().LMS_BASE_URL}/about`,
         title: 'About',
         target_blank: false
     },
     {
-        href: '/privacy',
+        href: `${getConfig().LMS_BASE_URL}/privacy`,
         title: 'Privacy Policy',
         target_blank: false
     },
     {
-        href: '/tos',
+        href: `${getConfig().LMS_BASE_URL}/tos`,
         title: 'Terms of Service',
         target_blank: false
     },
     {
-        href: '/support/contact_us',
+        href: `${getConfig().LMS_BASE_URL}/support/contact_us`,
         title: 'Contact Us',
         target_blank: false
     },
