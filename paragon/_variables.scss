@@ -17,6 +17,8 @@ $collapsible-card-spacer-icon: 1.5rem;
 // settings for header
 $header-vertical-padding: 30px;
 $header-logo-height: 45px;
+$header-nav-link-color: $primary;
+$header-nav-link-color-hover: darken($primary, 20%);
 
 // settings for footer
 $footer-logo-height: $header-logo-height;

@@ -16,10 +16,11 @@
             font-weight: 600;
             font-size: 14px;
             text-transform: uppercase;
+            color: $header-nav-link-color;
 
             &:hover {
                 background: none;
-                color: darken($primary, 20%);
+                color: $header-nav-link-color-hover;
             }
         }
     }
