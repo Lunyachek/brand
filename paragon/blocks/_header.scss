@@ -32,5 +32,19 @@
         .logo img {
             height: $header-logo-height;
         }
+
+        .menu-content a {
+            color: $primary;
+        }
+
+        .menu-trigger {
+            width: 45px;
+            height: 45px;
+
+            svg rect,
+            .avatar {
+                color: $primary;
+            }
+        }
     }
 }
