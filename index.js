@@ -1,7 +1,7 @@
 import { getConfig } from '@edx/frontend-platform';
 
 export { default as logoHeader } from './logo.svg'
-export { default as footerLogo } from './footerLogo.svg';
+export { default as footerLogo } from './logo-footer.svg';
 export { default as svgSprite } from './svg-sprite.svg';
 
 export const footerIcons = [
