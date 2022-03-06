@@ -31,8 +31,25 @@ html[dir="rtl"] .upgrade-notification-ul {
 }
 
 html[dir] .course-tabs-navigation .nav {
+    .dropdown-menu .dropdown-item {
+        border: none;
+
+        &:hover,
+        &:focus,
+        &:focus:hover,
+        &:focus:hover:active {
+            border: none;
+            color: $primary;
+        }
+
+        &:focus:active {
+            color: #fff;
+        }
+    }
+
     a:focus,
     a:focus:hover {
+        color: $primary;
         border: none;
         border-top: 4px solid transparent;
         border-bottom: 4px solid;
