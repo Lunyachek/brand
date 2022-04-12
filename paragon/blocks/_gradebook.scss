@@ -87,6 +87,8 @@
 }
 
 .page-gradebook {
+    position: relative;
+
     .sidebar-contents {
         width: 100%;
 
@@ -97,12 +99,12 @@
         .badge.badge-info {
             margin-bottom: 5px;
             background-color: lighten($brand, 25%);
-    
+
             button {
                 margin-left: 10px;
                 border-color: lighten($brand, 15%);
                 background-color: lighten($brand, 15%);
-    
+
                 &:hover,
                 &:focus,
                 &:active {
@@ -116,15 +118,24 @@
     .sidebar-container {
         position: relative;
     }
-    
+
     aside.sidebar {
         background-color: $white;
         overflow: auto;
-    
+
+        [dir=ltr] &:not(.open) {
+            transform: translateX(-100%);
+        }
+
+        [dir=rtl] &:not(.open) {
+            transform: translateX(100%);
+        }
+
         @include media-breakpoint-down(xs) {
+            z-index: 15;
             width: 100%;
         }
-    
+
         select.form-control {
             @extend .gradebook-select-form-control;
         }
