@@ -25,6 +25,10 @@
                     }
                 }
             }
+
+            &:first-child td:nth-child(n) {
+                border-top: none;
+            }
         }
     }
 
@@ -138,6 +142,10 @@
 
         select.form-control {
             @extend .gradebook-select-form-control;
+        }
+
+        .filter-group .grade-filter-action .btn {
+            @extend .btn-primary;
         }
     }
 }
