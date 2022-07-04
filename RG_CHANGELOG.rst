@@ -1,10 +1,11 @@
 [Unreleased]
 ~~~~~~~~~~~~
 
-[Feature] - 2022-07-04
-~~~~~~~~~~~~~~~~~~~~~~
+[Feature|Fix] - 2022-07-04
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 * create nutmeg basic theme (RGOeX-1295)
 * cosmetic improvements for learning and dates tabs (RGOeX-1316)
+* fix footer to the bottom while page is loading (RGOeX-1433)
 
 [Fix] - 2022-05-04
 ~~~~~~~~~~~~~~~~~~
