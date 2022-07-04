@@ -59,3 +59,7 @@ html[dir] .course-tabs-navigation .nav {
 .course-outline-tab .card .pgn__card-section .pgn__form-switch-input:checked {
     border-color: #454545;
 }
+
+.learning-header + div:not([class]):not([data-testid]) {
+    flex: 1 1 auto;
+}
