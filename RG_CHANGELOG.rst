@@ -4,6 +4,7 @@
 [Feature] - 2022-07-04
 ~~~~~~~~~~~~~~~~~~~~~~
 * create nutmeg basic theme (RGOeX-1295)
+* cosmetic improvements for learning and dates tabs (RGOeX-1316)
 
 [Fix] - 2022-05-04
 ~~~~~~~~~~~~~~~~~~

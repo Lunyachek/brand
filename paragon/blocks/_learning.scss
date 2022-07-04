@@ -55,3 +55,7 @@ html[dir] .course-tabs-navigation .nav {
         border-bottom: 4px solid;
     }
 }
+
+.course-outline-tab .card .pgn__card-section .pgn__form-switch-input:checked {
+    border-color: #454545;
+}
