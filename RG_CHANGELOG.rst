@@ -3,6 +3,10 @@
 
 [Feature|Fix] - 2022-07-04
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+* alignment rows in modal window (RGOeX-1323)
+
+[Feature|Fix] - 2022-07-04
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 * create nutmeg basic theme (RGOeX-1295)
 * cosmetic improvements for learning and dates tabs (RGOeX-1316)
 * fix footer to the bottom while page is loading (RGOeX-1433)
