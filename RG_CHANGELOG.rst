@@ -1,5 +1,7 @@
-[Unreleased]
-~~~~~~~~~~~~
+[Enhancement] - 2022-08-10
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+* add ability to hide the "powered and created by" section by flag (RGOeX-1668)
+* update set of social links (RGOeX-1668)
 
 [Feature|Fix] - 2022-07-04
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
