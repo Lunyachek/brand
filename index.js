@@ -17,11 +17,6 @@ export const footerIcons = [
     },
     {
         url: '#',
-        title: 'instagram',
-        icon: 'ico-instagram'
-    },
-    {
-        url: '#',
         title: 'linkedin',
         icon: 'ico-linkedin'
     },
@@ -32,28 +27,18 @@ export const footerIcons = [
     },
     {
         url: '#',
-        title: 'odnoklassniki',
-        icon: 'ico-odnoklassniki'
+        title: 'telegram',
+        icon: 'ico-telegram'
     },
     {
         url: '#',
-        title: 'vimeo',
-        icon: 'ico-vimeo'
+        title: 'instagram',
+        icon: 'ico-instagram'
     },
     {
         url: '#',
-        title: 'vk',
-        icon: 'ico-vk'
-    },
-    {
-        url: '#',
-        title: 'behance',
-        icon: 'ico-behance'
-    },
-    {
-        url: '#',
-        title: 'google-plus',
-        icon: 'ico-google-plus'
+        title: 'mail',
+        icon: 'ico-envelope'
     },
 ];
 
@@ -81,3 +66,5 @@ export const footerLinks = [
 ];
 
 export const isFooterDark = true;
+
+export const displayCreatedByBlock = true;
