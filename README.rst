@@ -1,7 +1,7 @@
 Open edX Brand Package Interface
 ================================
 
-This project contains the default branding assets and style used in Open edX applications. It is published on npm as `@edx/brand-openedx`.
+This project contains the default branding assets and style used in Open edX applications.
 
 The file structure serves as an interface to be implemented for custom branding and theming of Open edX.
 
@@ -15,38 +15,45 @@ To use a custom brand and theme...
 
 1. Fork or copy this project. Ensure that it lives in a location accessible to Open edX applications during asset builds. This may be a published git repo, npm, or local folder depending on your situation.
 
-2. Replace the assets in this project with your own logos or SASS theme. Match the filenames exactly. Open edX applications refer to these files by their filepath. Refer to the brand for edx.org at https://github.com/edx/brand for an example.
+2. Replace the assets in this project with your own logos, SASS theme, list of social or information links. All exported logos we can change in the `index.js` file.
 
-3. Configure your Open edX instance to consume your custom brand package. Refer to this documentation on configuring the platform: https://open-edx-proposals.readthedocs.io/en/latest/oep-0048-brand-customization.html [TODO: Add a link to documentation on configuring in Open edX MFE pipelines when it exists]
+3. Configure your Open edX instance to consume your custom brand package. Refer to this documentation on configuring the platform: https://open-edx-proposals.readthedocs.io/en/latest/oep-0048-brand-customization.html
 
-4. Rebuild the assets and microfrontends in your Open edX instance to see the new brand reflected. [TODO: Add link to relevant documentation when it is completed].
+4. Rebuild the assets and microfrontends in your Open edX instance to see the new brand reflected.
 
 --------------------------------------
 Files this package must make available
 --------------------------------------
 
-``/logo.svg``
+``/logo.svg`` Header logo variant.
 
 .. image:: /logo.svg
     :alt: logo
-    :width: 128px
+    :width: 60px
 
-``/logo-trademark.svg`` A variant of the logo with a trademark ® or ™. Note: This file must be present. If you don't have a trademark variant of your logo, copy your regular logo and use that.
+``/logo-footer.svg`` Footer logo variant.
 
-.. image:: /logo-trademark.svg
+.. image:: /logo-footer.svg
     :alt: logo
-    :width: 128px
+    :width: 60px
 
-``/logo-white.svg`` A variant of the logo for use on dark backgrounds
+``/svg-sprite.svg`` SVG sprite. Required for footer component.
 
-.. image:: /logo-white.svg
-    :alt: logo
-    :width: 128px
+``/paragon/fonts.scss``, ``/paragon/_variables.scss``, ``/paragon/_overrides.scss``  A SASS theme for `@edx/paragon <https://github.com/edx/paragon>`_.
 
-``/favicon.ico`` A site favicon
+## Additional settings:
 
-.. image:: /favicon.ico
-    :alt: favicon
-    :width: 32px
+``footerIcons [Object]``` Set of social media icons for the footer component.
 
-``/paragon/fonts.scss``, ``/paragon/_variables.scss``, ``/paragon/_overrides.scss``  A SASS theme for `@edx/paragon <https://github.com/edx/paragon>`_. Theming documentation in Paragon is coming soon. In the meantime, you can start a theme by the contents of `_variables.scss (after line 7) <https://github.com/edx/paragon/blob/master/scss/core/_variables.scss#L7-L1046>`_ file from the Paragon repository into this file.
+```footerLinks [Object]``` Set of info pages for the footer component.
+
+```isFooterDark [Boolean]``` A flag for toggling the footer color style.
+
+```displayCreatedByBlock [Boolean]``` A flag for toggling the created by and powered by block in the footer.
+
+------------
+Translations
+------------
+
+This package might include only original (EN) translations object and transfer them to the necessary components.
+All necessary translations should be added directly into the footer or/and header components.
