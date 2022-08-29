@@ -1,3 +1,8 @@
+[Enhancement] - 2022-08-29
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+* add ability to translate messages (RGOeX-1792)
+* update the readme file
+
 [Enhancement] - 2022-08-10
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 * add ability to hide the "powered and created by" section by flag (RGOeX-1668)
