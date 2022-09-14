@@ -1,5 +1,9 @@
 [Enhancement] - 2022-09-13
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+* stick footer for the learning MFE when it has loaded with error (RGOeX-1877)
+
+[Enhancement] - 2022-09-13
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 * add cropping for a long username and padding for the section with username for mobile (RGOeX-1728)
 
 [Enhancement] - 2022-08-29
