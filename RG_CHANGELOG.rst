@@ -1,3 +1,7 @@
+[Enhancement] - 2022-09-13
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+* add cropping for a long username and padding for the section with username for mobile (RGOeX-1728)
+
 [Enhancement] - 2022-08-29
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 * add ability to translate messages (RGOeX-1792)
