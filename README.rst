@@ -41,19 +41,21 @@ Files this package must make available
 
 ``/paragon/fonts.scss``, ``/paragon/_variables.scss``, ``/paragon/_overrides.scss``  A SASS theme for `@edx/paragon <https://github.com/edx/paragon>`_.
 
-## Additional settings:
+-----------------------
+Additional settings
+-----------------------
 
-``footerIcons [Object]``` Set of social media icons for the footer component.
+``footerIcons [Object]`` Set of social media icons for the footer component.
 
-```footerLinks [Object]``` Set of info pages for the footer component.
+``footerLinks [Object]`` Set of info pages for the footer component.
 
-```isFooterDark [Boolean]``` A flag for toggling the footer color style.
+``isFooterDark [Boolean]`` A flag for toggling the footer color style.
 
-```displayCreatedByBlock [Boolean]``` A flag for toggling the created by and powered by block in the footer.
+``displayCreatedByBlock [Boolean]`` A flag for toggling the created by and powered by block in the footer.
 
 ------------
 Translations
 ------------
 
-This package might include only original (EN) translations object and transfer them to the necessary components.
-All necessary translations should be added directly into the footer or/and header components.
+This package includes translations object and transfer them to the footer component.
+All necessary translations should be added to the i18n directory of this package.

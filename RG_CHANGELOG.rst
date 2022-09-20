@@ -1,10 +1,11 @@
-[Enhancement] - 2022-09-13
+[Enhancement] - 2022-09-20
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-* stick footer for the learning MFE when it has loaded with error (RGOeX-1877)
+* add ability to translate text from brand and add translations (RGOeX-1844)
 
 [Enhancement] - 2022-09-13
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 * add cropping for a long username and padding for the section with username for mobile (RGOeX-1728)
+* stick footer for the learning MFE when it has loaded with error (RGOeX-1877)
 
 [Enhancement] - 2022-08-29
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16,15 +17,15 @@
 * add ability to hide the "powered and created by" section by flag (RGOeX-1668)
 * update set of social links (RGOeX-1668)
 
-[Feature|Fix] - 2022-07-04
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Fix] - 2022-07-04
+~~~~~~~~~~~~~~~~~~
 * alignment rows in modal window (RGOeX-1323)
+* fix footer to the bottom while page is loading (RGOeX-1433)
 
-[Feature|Fix] - 2022-07-04
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Feature] - 2022-07-04
+~~~~~~~~~~~~~~~~~~~~~~
 * create nutmeg basic theme (RGOeX-1295)
 * cosmetic improvements for learning and dates tabs (RGOeX-1316)
-* fix footer to the bottom while page is loading (RGOeX-1433)
 
 [Fix] - 2022-05-04
 ~~~~~~~~~~~~~~~~~~
