@@ -1,3 +1,8 @@
+[Enhancement] - 2022-10-17
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+* prepare brand to the RG olive release (RGOeX-24524)
+* add CI checkers and fix errors (RGOeX-24524)
+
 [Enhancement] - 2022-09-20
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 * add ability to translate text from brand and add translations (RGOeX-1844)

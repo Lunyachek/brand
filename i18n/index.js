@@ -25,7 +25,7 @@ const messages = {
   'pt-br': ptbrMessages,
   ru: ruMessages,
   th: thMessages,
-  uk: ukMessages
+  uk: ukMessages,
 };
 
 export default messages;
