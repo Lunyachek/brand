@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import { defineMessages } from '@edx/frontend-platform/i18n';
 
 const messages = defineMessages({

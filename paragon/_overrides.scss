@@ -2,10 +2,12 @@
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
 // override general styles
+
 @import "./common";
 @import "./fonts";
 
 // override blocks
+
 @import "./blocks/header";
 @import "./blocks/footer";
 @import "./blocks/account";
@@ -16,4 +18,5 @@
 @import "./blocks/profile";
 
 // override paragon components
+
 @import "./components/Menu";
