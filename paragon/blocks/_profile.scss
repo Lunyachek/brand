@@ -10,4 +10,15 @@
     .row .col.pl-0 {
         padding-left: $col-gutter-width / 2 !important;
     }
+
+    // add limits for long select wrappers
+    .form-group,
+    .col-form-label + span {
+        max-width: 100%;
+    }
+
+    // add limits for long selects
+    .form-control {
+        max-width: 90%;
+    }
 }
