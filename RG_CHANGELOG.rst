@@ -41,6 +41,8 @@ Added:
 * add ability to translate text from brand and add translations (RGOeX-1844)
 * prepare brand to the RG olive release (RGOeX-24524)
 * add CI checkers and fix errors (RGOeX-24524)
+* add RG basic branding for the MFE Authn and cookie banner component (RGOeX-24910)
+* update stylelint to version 14 (RGOeX-24910)
 
 Changed:
 ========
