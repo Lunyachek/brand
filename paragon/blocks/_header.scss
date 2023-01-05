@@ -30,6 +30,35 @@
         }
     }
 
+    header.site-header-desktop {
+        height: auto;
+
+        & > .px-5 {
+            max-width: $container-width;
+            margin: 0 auto;
+            padding: 0 12px !important;
+
+            .main-nav {
+                .menu {
+                    margin-left: 10px;
+                }
+
+                .expanded .nav-link {
+                    color: $white;
+
+                    &:hover {
+                        background: $primary;
+                    }
+                }
+            }
+
+            .course-title-lockup {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+
     header.learning-header {
         height: auto;
         font-family: $font;
@@ -51,8 +80,19 @@
             height: $header-logo-height;
         }
 
-        .menu-content a {
-            color: $primary;
+        .menu-content {
+            a {
+                color: $primary;
+            }
+
+            .menu-trigger {
+                width: 100%;
+
+                & + .menu-content {
+                    padding-left: 1.5rem;
+                    padding-right: 1.5rem;
+                }
+            }
         }
 
         .menu-trigger {
