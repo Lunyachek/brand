@@ -44,6 +44,7 @@ Added:
 * add RG basic branding for the MFE Authn and cookie banner component (RGOeX-24910)
 * update stylelint to version 14 (RGOeX-24910)
 * add RG basic branding for the MFE Discussion (RGOeX-24917)
+* add RG basic branding for the MFE Course Authoring (RGOeX-24924)
 
 Changed:
 ========
