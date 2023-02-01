@@ -29,5 +29,9 @@ $footer-support-text-and-logo: #fff;
 $footer-social-link-bg: #44b759;
 $footer-social-link-bg-hover: lighten($footer-social-link-bg, 20%);
 
+// settings for cookie banner
+$cookie-banner-cta-base: $primary;
+$cookie-banner-cta-hover: darken($cookie-banner-cta-base, 20%);
+
 // default bootstrap variables
 $col-gutter-width: 24px;
