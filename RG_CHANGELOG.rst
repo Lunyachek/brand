@@ -11,6 +11,7 @@ and this project adheres to customized Semantic Versioning e.g.: `olive-rg.1`
 
 Fixes:
 ======
+* display top stripe in the MFE Authn (RGOeX-25317)
 * add text alignment and overflow for social media links for the Account MFE (RGOeX-559)
 * change page links in the footer (RGOeX-635)
 * fix box-shadow to prevent safari bug (RGOeX-648)
