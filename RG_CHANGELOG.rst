@@ -15,6 +15,7 @@ Enhancement:
 
 Fixes:
 ======
+* Add base color for custom checkbox inside tinymce modal in discussion (RGOeX-25478)
 * Add base color for tinymce in discussion (RGOeX-25325)
 * display top stripe in the MFE Authn (RGOeX-25317)
 * add text alignment and overflow for social media links for the Account MFE (RGOeX-559)

@@ -28,4 +28,15 @@
     .tox-dialog__body-nav-item:focus {
         background: rgba($primary, .05);
     }
+
+    .tox-checkbox__icons .tox-checkbox-icon__checked,
+    .tox-checkbox__icons .tox-checkbox-icon__indeterminate {
+        svg {
+            fill: $primary;
+        }
+    }
+
+    input.tox-checkbox__input:focus + .tox-checkbox__icons {
+        box-shadow: inset 0 0 0 1px $primary;
+    }
 }
