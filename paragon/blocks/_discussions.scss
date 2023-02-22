@@ -1,29 +1,29 @@
 #root {
-  .font-family-inter {
-    font-family: $font;
-  }
-
-  #courseTabsNavigation {
-    font-family: $font;
-    border-bottom: none;
-
-    .container-xl {
-      padding-left: 12px;
+    .font-family-inter {
+        font-family: $font;
     }
-  }
 
-  .header-action-bar {
-    z-index: 2;
-    border-top: solid 1px #eaeaea;
+    #courseTabsNavigation {
+        font-family: $font;
+        border-bottom: none;
 
-    @include media-breakpoint-up(xl) {
-      margin: 0 12px;
+        .container-xl {
+            padding-left: 12px;
+        }
     }
-  }
 
-  .header-action-bar + .d-flex.flex-row {
-    @include media-breakpoint-up(xl) {
-      margin: 0 12px;
+    .header-action-bar {
+        z-index: 2;
+        border-top: solid 1px #eaeaea;
+
+        @include media-breakpoint-up(xl) {
+            margin: 0 12px;
+        }
     }
-  }
+
+    .header-action-bar + .d-flex.flex-row {
+        @include media-breakpoint-up(xl) {
+            margin: 0 12px;
+        }
+    }
 }

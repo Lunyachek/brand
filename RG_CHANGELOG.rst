@@ -9,6 +9,10 @@ and this project adheres to customized Semantic Versioning e.g.: `olive-rg.1`
 [Unreleased]
 ************
 
+Enhancement:
+======
+* add pre-commit-hooks, add .gitlab-ci.yml and update npm dependencies (MC-36)
+
 Fixes:
 ======
 * Add base color for tinymce in discussion (RGOeX-25325)

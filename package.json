@@ -16,10 +16,19 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint --ext .js --ext .jsx .",
-    "stylelint": "stylelint **/*.scss"
+    "prepare": "husky install",
+    "lint-js": "eslint --ext .js --ext .jsx .",
+    "lint-style": "stylelint **/*.scss",
+    "build_ci": "rm -rf ./dist && ./node_modules/.bin/fedx-scripts babel src --out-dir dist --source-maps --ignore **/*.test.jsx,**/__mocks__,**/__snapshots__,**/setupTest.js --copy-files && rm -rf dist/**/*.test.jsx && rm -rf dist/**/__snapshots__ && rm -rf dist/__mocks__"
+  },
+  "dependencies": {
+    "@edx/frontend-build": "^12.4.19",
+    "stylelint": "^14.15.0"
   },
   "devDependencies": {
-    "@edx/frontend-build": "^9.2.2"
+    "@edx/frontend-build": "^9.2.2",
+    "@commitlint/cli": "^17.4.1",
+    "@commitlint/config-conventional": "^17.4.0",
+    "husky": "^8.0.3"
   }
 }

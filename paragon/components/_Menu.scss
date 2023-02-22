@@ -8,7 +8,7 @@
     background: transparent;
     border: none;
 
-    @include hover() {
+    @include hover {
         background: transparent;
         border: none;
         color: $link-hover-color;

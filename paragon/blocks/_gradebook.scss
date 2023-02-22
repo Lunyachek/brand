@@ -32,7 +32,6 @@
         }
     }
 
-
     + div button {
         @include media-breakpoint-down(sm) {
             margin: 20px 0 !important;
@@ -127,11 +126,11 @@
         background-color: $white;
         overflow: auto;
 
-        [dir=ltr] &:not(.open) {
+        [dir="ltr"] &:not(.open) {
             transform: translateX(-100%);
         }
 
-        [dir=rtl] &:not(.open) {
+        [dir="rtl"] &:not(.open) {
             transform: translateX(100%);
         }
 
