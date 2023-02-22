@@ -60,7 +60,7 @@ html[dir] .course-tabs-navigation .nav {
     border-color: #454545;
 }
 
-.learning-header + div:not([class]):not([data-testid]),
+.learning-header + div:not([class], [data-testid]),
 .learning-header + p.text-center.py-5.mx-auto {
     flex: 1 1 auto;
 }
