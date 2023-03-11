@@ -64,3 +64,14 @@ html[dir] .course-tabs-navigation .nav {
 .learning-header + p.text-center.py-5.mx-auto {
     flex: 1 1 auto;
 }
+
+div[data-testid="exam-timer"] {
+    .d-flex {
+        flex-grow: 0;
+    }
+
+    .exam-timer-clock {
+        justify-content: flex-end !important;
+        flex-grow: 0 !important;
+    }
+}
