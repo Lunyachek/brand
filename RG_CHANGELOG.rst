@@ -9,10 +9,6 @@ and this project adheres to customized Semantic Versioning e.g.: `olive-rg.1`
 [Unreleased]
 ************
 
-Enhancement:
-======
-* add pre-commit-hooks, add .gitlab-ci.yml and update npm dependencies (MC-36)
-
 Fixes:
 ======
 * Add base color for tinymce context menu in Course Authoring MFE (RGOeX-25525)
@@ -40,6 +36,12 @@ Fixes:
 
 Added:
 =====
+* move «End My Exam» button and time to the right side of Special Exam notification block (RGOeX-25179)
+* add pre-commit-hooks, add .gitlab-ci.yml and update npm dependencies (MC-36)
+* add RG basic branding for the MFE Course Authoring (RGOeX-24924)
+* add RG basic branding for the MFE Discussion (RGOeX-24917)
+* add RG basic branding for the MFE Authn and cookie banner component (RGOeX-24910)
+* update stylelint to version 14 (RGOeX-24910)
 * add RG basic branding settings (colors, fonts, variables) (RGOeX-384)
 * add styles for the MFE footer component (RGOeX-407)
 * add styles for the header of the Learning MFE (RGOeX-652)
@@ -49,10 +51,6 @@ Added:
 * add ability to translate text from brand and add translations (RGOeX-1844)
 * prepare brand to the RG olive release (RGOeX-24524)
 * add CI checkers and fix errors (RGOeX-24524)
-* add RG basic branding for the MFE Authn and cookie banner component (RGOeX-24910)
-* update stylelint to version 14 (RGOeX-24910)
-* add RG basic branding for the MFE Discussion (RGOeX-24917)
-* add RG basic branding for the MFE Course Authoring (RGOeX-24924)
 
 Changed:
 ========
