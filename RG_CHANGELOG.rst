@@ -36,6 +36,7 @@ Fixes:
 
 Added:
 =====
+* add cursor pointer to "Show more" link and fix line height in Timed Exam notification block (RGOeX-25660 and RGOeX-25667)
 * move «End My Exam» button and time to the right side of Special Exam notification block (RGOeX-25179)
 * add pre-commit-hooks, add .gitlab-ci.yml and update npm dependencies (MC-36)
 * add RG basic branding for the MFE Course Authoring (RGOeX-24924)

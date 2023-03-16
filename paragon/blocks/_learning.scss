@@ -66,6 +66,12 @@ html[dir] .course-tabs-navigation .nav {
 }
 
 div[data-testid="exam-timer"] {
+    line-height: 1.5;
+
+    .alert-link {
+        cursor: pointer;
+    }
+
     .d-flex {
         flex-grow: 0;
     }
