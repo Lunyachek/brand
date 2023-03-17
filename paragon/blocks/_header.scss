@@ -23,6 +23,11 @@
                 background: none;
                 color: $header-nav-link-color-hover;
             }
+
+            &:focus:not(:hover) {
+                color: $white;
+                border-radius: 3px;
+            }
         }
 
         .dropdown-menu {

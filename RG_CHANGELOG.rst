@@ -11,6 +11,7 @@ and this project adheres to customized Semantic Versioning e.g.: `olive-rg.1`
 
 Fixes:
 ======
+* Fix MFE header links focus state (RGOeX-25690)
 * Add base color for tinymce context menu in Course Authoring MFE (RGOeX-25525)
 * Add base color for custom checkbox inside tinymce modal in discussion (RGOeX-25478)
 * Add base color for tinymce in discussion (RGOeX-25325)
