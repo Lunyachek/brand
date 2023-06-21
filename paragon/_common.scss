@@ -21,3 +21,7 @@ body {
         flex: 1 1 auto;
     }
 }
+
+#courseTabsNavigation ~ .header-action-bar ~ .d-flex.flex-row .d-flex .btn-outline-dark {
+    @extend .btn-outline-primary;
+}
