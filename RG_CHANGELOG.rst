@@ -18,6 +18,7 @@ Added:
 
 Fixes:
 ======
+* Colors changes for the login and registration pages and Base color for the Add Post button in discussions (RGOeX-25891)
 * Fix MFE header links focus state (RGOeX-25690)
 * Add base color for tinymce context menu in Course Authoring MFE (RGOeX-25525)
 * Add base color for custom checkbox inside tinymce modal in discussion (RGOeX-25478)

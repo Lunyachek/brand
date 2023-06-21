@@ -33,5 +33,8 @@ $footer-social-link-bg-hover: lighten($footer-social-link-bg, 20%);
 $cookie-banner-cta-base: $primary;
 $cookie-banner-cta-hover: darken($cookie-banner-cta-base, 20%);
 
+// login and regisration pages
+$login-registration-left-bg: #f2f5f8;
+
 // default bootstrap variables
 $col-gutter-width: 24px;
