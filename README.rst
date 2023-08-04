@@ -39,6 +39,12 @@ Files this package must make available
 
 ``/svg-sprite.svg`` SVG sprite. Required for footer component.
 
+.. image:: /paragon/images/card-imagecap-fallback.png
+    :alt: card-imagecap-fallback
+    :width: 380px
+
+``/paragon/images/card-imagecap-fallback.png`` A variant of the default fallback image for Card.ImageCap component.
+
 ``/paragon/fonts.scss``, ``/paragon/_variables.scss``, ``/paragon/_overrides.scss``  A SASS theme for `@edx/paragon <https://github.com/edx/paragon>`_.
 
 -----------------------
