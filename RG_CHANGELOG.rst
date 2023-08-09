@@ -11,6 +11,7 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Added:
 =====
+* Palm basic branding - logos, base color, etc. (RGOeX-26029)
 * prepare brand to the RG palm release (RGOeX-25775)
 
 [olive-rg.1] 2023-03-23 (Olive RG release)

@@ -1,7 +1,7 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
 
-$primary: #74901f !default;
+$primary: #1b511a !default;
 $brand: $primary !default;
 $link-color: $primary !default;
 $black: #000;
@@ -22,11 +22,11 @@ $header-nav-link-color-hover: darken($primary, 20%);
 
 // settings for footer
 $footer-logo-height: $header-logo-height;
-$footer-bg: #2a374a;
+$footer-bg: #012010;
 $footer-nav-link-color: #fff;
 $footer-nav-link-color-hover: darken($footer-nav-link-color, 20%);
 $footer-support-text-and-logo: #fff;
-$footer-social-link-bg: #44b759;
+$footer-social-link-bg: #c9e5ab;
 $footer-social-link-bg-hover: lighten($footer-social-link-bg, 20%);
 
 // settings for cookie banner
