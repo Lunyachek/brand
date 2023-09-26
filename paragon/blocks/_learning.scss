@@ -5,6 +5,20 @@
 .sequence-navigation {
     @media (max-width: 576px) {
         width: calc(100% - 55px) !important;
+
+        & + .d-flex.ml-auto {
+            position: absolute;
+            right: 0;
+            top: 0;
+
+            .icon-container {
+                height: 44px;
+            }
+
+            & > div {
+                margin: 0 !important;
+            }
+        }
     }
 }
 
