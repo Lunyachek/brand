@@ -68,12 +68,35 @@
         height: auto;
         font-family: $font;
 
+        @include media-breakpoint-down(xs) {
+            padding-bottom: 20px;
+        }
+
         .logo img {
             height: 100%;
         }
 
-        .course-title-lockup .small {
-            font-size: 87.5%;
+        .container-fluid {
+            @include media-breakpoint-down(xs) {
+                flex-wrap: wrap;
+            }
+        }
+
+        .course-title-lockup {
+            @include media-breakpoint-down(xs) {
+                order: 3;
+                width: 100%;
+                text-align: center;
+                padding: 15px 0 0;
+            }
+
+            .small {
+                font-size: 87.5%;
+            }
+        }
+
+        .container-fluid > a:not(.logo) {
+            margin-left: auto;
         }
     }
 

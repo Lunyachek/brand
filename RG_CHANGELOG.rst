@@ -9,6 +9,10 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 [Unreleased]
 ************
 
+Fixes:
+======
+* Move course title under the logo on mobile resolutions (RGOeX-25931)
+
 Added:
 =====
 * Palm basic branding - logos, base color, etc. (RGOeX-26029)
