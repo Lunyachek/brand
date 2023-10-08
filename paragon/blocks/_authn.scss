@@ -37,7 +37,8 @@
             }
         }
 
-        .bg-primary-400 {
+        .bg-primary-400,
+        .bg-light-200 {
             background-color: $login-registration-left-bg !important;
 
             @include media-breakpoint-down("lg") {
@@ -47,23 +48,76 @@
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
+            }
+        }
 
-                h1 {
-                    margin: 3rem .5rem !important;
+        .bg-primary-400 h1 {
+            @include media-breakpoint-down("lg") {
+                margin: 3rem .5rem !important;
+            }
+        }
+
+        .bg-light-200 {
+            h1 {
+                @include media-breakpoint-down("lg") {
+                    margin: 1rem 0 .5rem;
+                    font-size: 18px;
+                }
+
+                @include media-breakpoint-down("sm") {
+                    margin: 0 0 .5rem;
+                    font-size: 14px;
+                }
+
+                @include media-breakpoint-down("xs") {
+                    margin: .5rem 0;
+                }
+            }
+
+            h2 {
+                @include media-breakpoint-down("lg") {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+
+                @include media-breakpoint-down("xs") {
+                    font-size: 36px;
+                    line-height: 45px;
                 }
             }
         }
 
         .large-screen-svg-primary,
-        .medium-screen-svg-primary {
+        .medium-screen-svg-primary,
+        .large-screen-svg-light {
             fill: $login-registration-left-bg;
         }
 
-        h1.text-white {
+        h1.text-white,
+        h2.complete-your-profile,
+        h2.display-1,
+        h2.h1 {
             color: $black !important;
 
             .text-accent-a {
                 color: $primary !important;
+            }
+        }
+
+        .large-yellow-line {
+            border-color: $primary;
+        }
+
+        .medium-yellow-line,
+        .small-yellow-line {
+            display: none;
+        }
+
+        .col-md-10.bg-light-200 .d-flex.align-items-center {
+            margin-left: 0 !important;
+
+            h1.data-hj-suppress {
+                max-width: none;
             }
         }
     }

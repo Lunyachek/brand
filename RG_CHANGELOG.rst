@@ -15,6 +15,7 @@ Fixes:
 
 Added:
 =====
+* Added brand color to the Authn MFE Welcome page (RGOeX-26091)
 * Fixed position of notification icon in Learning MFE on mobile resolutions (RGOeX-25939)
 * Palm basic branding - logos, base color, etc. (RGOeX-26029)
 * prepare brand to the RG palm release (RGOeX-25775)
