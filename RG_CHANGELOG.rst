@@ -11,6 +11,8 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Fixes:
 ======
+* Scroll is displayed near Send an email title (RGOeX-26094)
+    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-communications/pull/155>`_ will be merged
 * Move course title under the logo on mobile resolutions (RGOeX-25931)
 
 Added:
