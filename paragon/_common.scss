@@ -6,7 +6,7 @@ body {
     max-width: $container-width;
 }
 
-#main-content {
+#main-content:not(h1) {
     max-width: 100%;
     overflow-x: hidden;
 }
