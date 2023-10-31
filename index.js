@@ -15,8 +15,8 @@ export const footerIcons = [
   },
   {
     url: '#',
-    title: 'twitter',
-    icon: 'ico-twitter',
+    title: 'twitter-x',
+    icon: 'ico-twitter-x-circle',
   },
   {
     url: '#',
