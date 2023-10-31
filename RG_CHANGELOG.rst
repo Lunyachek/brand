@@ -11,6 +11,8 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Fixes:
 ======
+* Created upstream PR to Profile MFE about fix text overflow in username and form controls (RGOeX-26109)
+    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-profile/pull/888>`_ will be merged
 * Created upstream PR to Learning MFE about fix responsive, RTL and text colors (RGOeX-26110)
     * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-learning/pull/1219>`_ will be merged
     * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-learning/pull/1220>`_ will be merged
