@@ -20,6 +20,7 @@ Fixes:
 
 Added:
 =====
+* Footer logo enhancements, added `by Raccoon Gang` text to a clickable area in the link with RG logo (RGOeX-26186)
 * Changed twitter icon to X on footer (RGOeX-26189)
 * Added brand color to the Authn MFE Welcome page (RGOeX-26091)
 * Fixed position of notification icon in Learning MFE on mobile resolutions (RGOeX-25939)
