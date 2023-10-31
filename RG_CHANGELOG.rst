@@ -11,6 +11,10 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Fixes:
 ======
+* Created upstream PR to Learning MFE about fix responsive, RTL and text colors (RGOeX-26110)
+    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-learning/pull/1219>`_ will be merged
+    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-learning/pull/1220>`_ will be merged
+    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-learning/pull/1223>`_ will be merged
 * Created upstream PR to Account MFE about fix text overflow in social media links block (RGOeX-26108)
     * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-account/pull/916>`_ will be merged
 * Created upstream PR to Authn MFE about fix oauth2 buttons style and text centering (RGOeX-26111)
