@@ -11,6 +11,9 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Fixes:
 ======
+* Created upstream PR to Authn MFE about fix oauth2 buttons style and text centering (RGOeX-26111)
+    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-authn/pull/1092>`_ will be merged
+    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-authn/pull/1094>`_ will be merged
 * Scroll is displayed near Send an email title (RGOeX-26094)
     * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-communications/pull/155>`_ will be merged
 * Move course title under the logo on mobile resolutions (RGOeX-25931)
