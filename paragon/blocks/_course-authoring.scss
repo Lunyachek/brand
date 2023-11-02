@@ -1,0 +1,7 @@
+.settingsWidget .btn-inline.text-info-500 {
+    color: $primary !important;
+
+    &:hover {
+        color: $link-hover-color !important;
+    }
+}
