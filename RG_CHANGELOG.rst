@@ -9,6 +9,9 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 [Unreleased]
 ************
 
+[palm-rg.1] 2023-11-03 (Palm RG release)
+****************************************
+
 Fixes:
 ======
 * Created upstream PR to Gradebook MFE about fix text overflow in username and form controls (RGOeX-26112)
