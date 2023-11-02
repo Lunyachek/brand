@@ -30,6 +30,8 @@ Fixes:
 
 Added:
 =====
+* Added brand color to the Show advanced settings button in course authoring (RGOeX-26196)
+    * This fix should be removed when this `PR <https://github.com/openedx/frontend-lib-content-components/pull/417>`_ will be merged
 * Footer logo enhancements, added `by Raccoon Gang` text to a clickable area in the link with RG logo (RGOeX-26186)
 * Changed twitter icon to X on footer (RGOeX-26189)
 * Added brand color to the Authn MFE Welcome page (RGOeX-26091)
