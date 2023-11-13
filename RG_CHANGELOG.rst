@@ -14,19 +14,6 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Fixes:
 ======
-* Created upstream PR to Gradebook MFE about fix text overflow in username and form controls (RGOeX-26112)
-    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-gradebook/pull/363>`_ will be merged
-* Created upstream PR to Profile MFE about fix text overflow in username and form controls (RGOeX-26109)
-    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-profile/pull/888>`_ will be merged
-* Created upstream PR to Learning MFE about fix responsive, RTL and text colors (RGOeX-26110)
-    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-learning/pull/1219>`_ will be merged
-    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-learning/pull/1220>`_ will be merged
-    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-learning/pull/1223>`_ will be merged
-* Created upstream PR to Account MFE about fix text overflow in social media links block (RGOeX-26108)
-    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-account/pull/916>`_ will be merged
-* Created upstream PR to Authn MFE about fix oauth2 buttons style and text centering (RGOeX-26111)
-    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-authn/pull/1092>`_ will be merged
-    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-authn/pull/1094>`_ will be merged
 * Scroll is displayed near Send an email title (RGOeX-26094)
     * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-app-communications/pull/155>`_ will be merged
 * Move course title under the logo on mobile resolutions (RGOeX-25931)
