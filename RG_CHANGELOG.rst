@@ -9,6 +9,11 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 [Unreleased]
 ************
 
+Fixes:
+======
+* Form elements alignment and icon deformation for Course Authoring Problem pages (RGOeX-26224)
+    * This fix should be removed from theme when this `master PR <https://github.com/openedx/frontend-lib-content-components/pull/423>`_ will be merged and included in Git tag for current release
+
 [palm-rg.1] 2023-11-03 (Palm RG release)
 ****************************************
 
