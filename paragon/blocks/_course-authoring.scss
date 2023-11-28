@@ -5,3 +5,25 @@
         color: $link-hover-color !important;
     }
 }
+
+.editor-page {
+    .answer-option {
+        .pgn__form-checkbox,
+        .pgn__form-radio {
+            & + .pgn__form-label {
+                min-width: 1.1rem;
+            }
+        }
+    }
+
+    .settingsOption {
+        .pgn__form-checkbox .pgn__form-label {
+            min-width: .7rem;
+        }
+
+        // ToDo: temporary fix of shrinking icon buttons (for palm and possibly quince RG releases only)
+        button.btn-icon {
+            flex-shrink: 0;
+        }
+    }
+}
