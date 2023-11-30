@@ -9,6 +9,11 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 [Unreleased]
 ************
 
+Added:
+=====
+* Applied the same style to cookie banners on all MFE pages (RGOeX-26235)
+    * This approach should be changed when quince will be released. This `PR <https://github.com/openedx/frontend-app-learning/pull/1164>`_ will help us to include cookie banner styles with import in learning
+
 Fixes:
 ======
 * Layout responsive for Course Authoring Problem pages (RGOeX-26216)
