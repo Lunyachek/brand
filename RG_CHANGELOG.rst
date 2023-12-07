@@ -9,6 +9,10 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 [Unreleased]
 ************
 
+Added:
+=====
+* Added 'header-logo-height-mobile' variable for regulating the logo size on mobile devices (RGOeX-26270)
+
 [palm-rg.2] 2023-12-01
 **********************
 
