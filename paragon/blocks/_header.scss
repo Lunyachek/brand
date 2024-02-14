@@ -88,6 +88,10 @@
         }
 
         .course-title-lockup {
+            border: none;
+            padding: 0;
+            max-width: none;
+
             @include media-breakpoint-down(xs) {
                 order: 3;
                 width: 100%;
@@ -98,6 +102,16 @@
             .small {
                 font-size: 87.5%;
             }
+
+            span {
+                padding: 0;
+                line-height: 1;
+            }
+        }
+
+        .user-dropdown .btn {
+            height: auto;
+            padding: .5625rem 1rem;
         }
 
         .container-fluid > a:not(.logo) {

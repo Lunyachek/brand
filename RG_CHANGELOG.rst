@@ -11,6 +11,10 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Added:
 =====
+* Quince MFE theme (RGOeX-26359)
+    * General Quince styles
+    * Fix header styles to match with new MFE header
+    * Fix footer styles to match with RG legacy footer
 * Added 'header-logo-height-mobile' variable for regulating the logo size on mobile devices (RGOeX-26270)
 
 [palm-rg.2] 2023-12-01
