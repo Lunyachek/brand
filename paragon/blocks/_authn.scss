@@ -169,18 +169,7 @@
         @include media-breakpoint-up("xl") {
             display: flex;
             height: .5rem;
-            background-image: linear-gradient(
-                102.02deg,
-                darken($primary, 20%) 10%,
-                darken($primary, 10%) 10%,
-                darken($primary, 10%) 45%,
-                $primary 45%,
-                $primary 55%,
-                lighten($primary, 10%) 55%,
-                lighten($primary, 10%) 75%,
-                lighten($primary, 20%) 75%,
-            );
-            background-repeat: no-repeat;
+            background: $primary;
         }
     }
 
@@ -189,41 +178,16 @@
         height: .5rem;
 
         @include media-breakpoint-only("lg") {
-            background-image: linear-gradient(
-                102.02deg,
-                darken($primary, 10%) 10%,
-                $primary 10%,
-                $primary 65%,
-                lighten($primary, 10%) 65%,
-                lighten($primary, 10%) 75%,
-                lighten($primary, 20%) 75%,
-                lighten($primary, 20%) 75%
-            );
-            background-repeat: no-repeat;
+            background: $primary;
         }
 
         @include media-breakpoint-only("md") {
-            background-image: linear-gradient(
-                102.02deg,
-                darken($primary, 10%),
-                darken($primary, 10%) 10%,
-                $brand 10%,
-                $brand 90%,
-                lighten($primary, 10%) 90%,
-                lighten($primary, 10%) 100%,
-            );
-            background-repeat: no-repeat;
+            background: $primary;
         }
     }
 
     .small-screen-top-stripe {
         height: .25rem;
-        background-image: linear-gradient(
-            102.02deg,
-            $primary,
-            $primary 20%,
-            lighten($primary, 10%) 20%,
-        );
-        background-repeat: no-repeat;
+        background: $primary;
     }
 }

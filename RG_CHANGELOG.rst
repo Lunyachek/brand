@@ -11,6 +11,7 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Added:
 =====
+* Changed Authn top stripe color from gradient to single brand color (RGOeX-26376)
 * Quince MFE theme (RGOeX-26359)
     * General Quince styles
     * Fix header styles to match with new MFE header
