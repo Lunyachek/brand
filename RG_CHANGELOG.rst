@@ -20,6 +20,7 @@ Added:
 
 Fixes:
 ======
+* Fixed course title and organization text truncating in learning, discussion and ora grading headers (RGOeX-26377)
 * Fixed the discussions header, which overlaps the tabs navigation (RGOeX-26367)
 
 [palm-rg.2] 2023-12-01

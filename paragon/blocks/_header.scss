@@ -103,9 +103,8 @@
                 font-size: 87.5%;
             }
 
-            span {
-                padding: 0;
-                line-height: 1;
+            span:not(.course-title) {
+                padding-bottom: .2rem;
             }
         }
 
