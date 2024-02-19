@@ -14,9 +14,13 @@ Added:
 * Changed Authn top stripe color from gradient to single brand color (RGOeX-26376)
 * Quince MFE theme (RGOeX-26359)
     * General Quince styles
-    * Fix header styles to match with new MFE header
-    * Fix footer styles to match with RG legacy footer
+    * Fixed header styles to match with new MFE header
+    * Fixed footer styles to match with RG legacy footer
 * Added 'header-logo-height-mobile' variable for regulating the logo size on mobile devices (RGOeX-26270)
+
+Fixes:
+======
+* Fixed the discussions header, which overlaps the tabs navigation (RGOeX-26367)
 
 [palm-rg.2] 2023-12-01
 **********************
