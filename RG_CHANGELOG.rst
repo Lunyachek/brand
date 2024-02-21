@@ -20,6 +20,7 @@ Added:
 
 Fixes:
 ======
+* Fixed container max-width inside course navigation in MFE frontend-app-communications (RGOeX-26368)
 * Fixed course title and organization text truncating in learning, discussion and ora grading headers (RGOeX-26377)
 * Fixed the discussions header, which overlaps the tabs navigation (RGOeX-26367)
 

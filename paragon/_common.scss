@@ -2,6 +2,7 @@ body {
     font-family: $font;
 }
 
+.container,
 .container-fluid {
     max-width: $container-width;
 }
