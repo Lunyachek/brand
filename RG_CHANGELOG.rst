@@ -11,6 +11,11 @@ and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
 
 Added:
 =====
+* Added cosmetic enhancements for Learner Dashboard (RGOeX-26383)
+    * Logo size
+    * Fix search icon near the masquerade form
+    * Stick footer to the bottom
+    * Align to the center masquerade form
 * Changed Authn top stripe color from gradient to single brand color (RGOeX-26376)
 * Quince MFE theme (RGOeX-26359)
     * General Quince styles
