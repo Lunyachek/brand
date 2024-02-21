@@ -1,0 +1,42 @@
+#root {
+    // [Stick footer to bottom] - This complex selector is necessary because in the code of learner-dashboard there are no unique classes we can use to target the element
+
+    & > div:first-child:not([class], [id]) > div:first-child:not([class], [id]) {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+
+        & > main {
+            flex: 1 1 auto;
+        }
+    }
+
+    #dashboard-content .container-fluid {
+        max-width: $container-width !important;
+    }
+
+    .learner-variant-header .logo {
+        height: $header-logo-height !important;
+    }
+
+    form.masquerade-bar {
+        max-width: 1230px;
+        margin: 0 auto;
+
+        .masquerade-form-label {
+            padding-left: 0;
+
+            & > .pgn__icon svg {
+                fill: #454545;
+            }
+        }
+
+        .masquerade-form-input {
+            max-width: none;
+        }
+
+        .btn-brand {
+            margin-right: 0 !important;
+        }
+    }
+}
