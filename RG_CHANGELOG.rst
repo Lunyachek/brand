@@ -4,7 +4,7 @@ RG Changelog
 All notable changes to this project will be documented in this file.
 
 The format is based on `Keep a Changelog <https://keepachangelog.com/en/1.0.0/>`_,
-and this project adheres to customized Semantic Versioning e.g.: `palm-rg.1`
+and this project adheres to customized Semantic Versioning e.g.: `quince-rg.1`
 
 [Unreleased]
 ************
@@ -33,11 +33,6 @@ Fixes:
 
 [palm-rg.2] 2023-12-01
 **********************
-
-Added:
-=====
-* Applied the same style to cookie banners on all MFE pages (RGOeX-26235)
-    * This approach should be changed when quince will be released. This `PR <https://github.com/openedx/frontend-app-learning/pull/1164>`_ will help us to include cookie banner styles with import in learning
 
 Fixes:
 ======
