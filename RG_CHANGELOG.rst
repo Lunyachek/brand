@@ -25,6 +25,8 @@ Added:
 
 Fixes:
 ======
+* Temporary fix hover color for buttons with the class .btn-tertiary in course-authoring MFE (RGOeX-26385)
+    * This fix must be deleted after this PR - https://github.com/openedx/frontend-app-course-authoring/pull/853 will be merged
 * Fixed extra spacing around body element (RGOeX-26384)
     * This fix must be deleted after this PR - https://github.com/openedx/frontend-app-communications/pull/193 will be merged
 * Fixed container max-width inside course navigation in MFE frontend-app-communications (RGOeX-26368)
