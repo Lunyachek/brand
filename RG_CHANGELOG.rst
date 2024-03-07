@@ -25,6 +25,7 @@ Added:
 
 Fixes:
 ======
+* Fixed oauth providers buttons color on the login and registration pages (RGOeX-26422)
 * Temporary fix hover color for buttons with the class .btn-tertiary in course-authoring MFE (RGOeX-26385)
     * This fix must be deleted after this PR - https://github.com/openedx/frontend-app-course-authoring/pull/853 will be merged
 * Fixed extra spacing around body element (RGOeX-26384)
