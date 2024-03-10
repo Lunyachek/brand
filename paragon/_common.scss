@@ -36,7 +36,10 @@ body {
 
 // This fix must be deleted after this PR will be merged - https://github.com/openedx/frontend-app-course-authoring/pull/853
 
-#root .btn-tertiary:hover {
-    color: #454545;
-    background: #e1dddb;
+#root,
+#paragon-portal-root {
+    .btn-tertiary:hover {
+        color: #454545;
+        background: #e1dddb;
+    }
 }
