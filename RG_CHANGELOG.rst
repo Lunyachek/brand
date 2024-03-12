@@ -11,6 +11,7 @@ and this project adheres to customized Semantic Versioning e.g.: `quince-rg.1`
 
 Added:
 =====
+* Added brand hover color for the buttons with arrow in course-authoring MFE video editor (RGOeX-26448)
 * Added cosmetic enhancements for Learner Dashboard (RGOeX-26383)
     * Logo size
     * Fix search icon near the masquerade form
