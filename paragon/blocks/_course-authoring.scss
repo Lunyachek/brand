@@ -70,7 +70,26 @@
         }
     }
 
-    .video-editor .collapsible-card .collapsible-trigger .btn-icon.btn-icon-dark:hover {
-        background-color: $primary;
+    .pgn__modal-body {
+        @include media-breakpoint-down(xs) {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .pgn-transition-replace-group .bg-light-300 {
+        @include media-breakpoint-down(xs) {
+            padding: 0 5px !important;
+        }
+    }
+
+    .pgn__form-control-set .pgn__action-row {
+        @include media-breakpoint-down(xs) {
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
     }
 }

@@ -28,6 +28,12 @@ body {
     @extend .btn-outline-primary;
 }
 
+.pgn__modal.pgn__modal-scroll-fullscreen {
+    @include media-breakpoint-down(xs) {
+        margin: 0;
+    }
+}
+
 // Fix for bug with country dropdown in authn registartion page [RGOeX-26365]
 
 .layout #main-content.main-content {
