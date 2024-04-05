@@ -9,8 +9,14 @@ and this project adheres to customized Semantic Versioning e.g.: `quince-rg.1`
 [Unreleased]
 ************
 
+Added:
+=====
+* Learner Record MFE - Stick footer to the bottom (RGOeX-26503)
+* Learner Record MFE - Change font size for Questions about Learner Records title (RGOeX-26503)
+
 Fixes:
 ======
+* Learner Record MFE - Fix color for Create program record link button (RGOeX-26503)
 * re-fix new Visual Problem Editor Responsive for problems editor page (RGOeX-26216)
     * This fix should be removed from theme when this `quince PR <https://github.com/openedx/frontend-app-course-authoring/pull/921>`_ or `quince PR <https://github.com/openedx/frontend-app-course-authoring/pull/922>`_ will be merged and included in Git tag for current release
 * re-fixed form elements alignment and icon deformation for Course Authoring Problem pages (RGOeX-26224)

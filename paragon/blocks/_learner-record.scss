@@ -1,0 +1,11 @@
+#root .program-record-wrapper {
+    flex: 1 1 auto;
+
+    .help {
+        color: $gray-700;
+    }
+
+    span.btn-icon-before {
+        filter: none;
+    }
+}
