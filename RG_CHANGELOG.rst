@@ -9,6 +9,10 @@ and this project adheres to customized Semantic Versioning e.g.: `quince-rg.1`
 [Unreleased]
 ************
 
+Removed:
+========
+* Removed styles for learning MFE introduced in RGOeX-25939 - consider skipping both commits when rebasing on the new release (RGOeX-26452)
+
 Added:
 =====
 * Learner Record MFE - Stick footer to the bottom (RGOeX-26503)
