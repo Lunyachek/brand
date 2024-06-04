@@ -20,6 +20,7 @@ Added:
 
 Fixes:
 ======
+* Remove additional scroll on the paragon Card component with custom font (RGOeX-26429)
 * Learner Record MFE - Fix color for Create program record link button (RGOeX-26503)
 * re-fix new Visual Problem Editor Responsive for problems editor page (RGOeX-26216)
     * This fix should be removed from theme when this `quince PR <https://github.com/openedx/frontend-app-course-authoring/pull/921>`_ or `quince PR <https://github.com/openedx/frontend-app-course-authoring/pull/922>`_ will be merged and included in Git tag for current release
