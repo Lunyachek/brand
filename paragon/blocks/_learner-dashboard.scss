@@ -1,7 +1,7 @@
 #root {
     // [Stick footer to bottom] - This complex selector is necessary because in the code of learner-dashboard there are no unique classes we can use to target the element
 
-    & > div:first-child:not([class], [id]) > div:first-child:not([class], [id]) {
+    & [data-testid="redux-provider"] > [data-testid="browser-router"] > div:first-child:not([class], [id]) > div:first-child:not([class], [id]) {
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -15,19 +15,106 @@
         max-width: $container-width !important;
     }
 
-    .learner-variant-header .logo {
-        height: $header-logo-height !important;
+    .learner-variant-header {
+        max-width: $container-width;
+        margin: 0 auto;
+        box-shadow: none !important;
+        width: 100%;
+        position: relative;
+        padding: $header-vertical-padding 12px !important;
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            right: 0;
+            height: 100%;
+            width: 100vw;
+            transform: translateX(-50%);
+            opacity: 0.5;
+            box-shadow: 0 0 6px 0 rgba($black, .75);
+            pointer-events: none;
+        }
+
+        .logo {
+            height: $header-logo-height !important;
+            margin-top: -2px;
+            margin-right: 25px;
+            padding: 0 !important;
+        }
+
+        .btn.btn-inverse-primary {
+            padding: 5px !important;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            border: none !important;
+            margin: 0;
+            line-height: 1.5556;
+            letter-spacing: .2px;
+
+            &:hover {
+                background: transparent;
+                color: $primary-700;
+            }
+
+            &:focus {
+                color: $white;
+                border-radius: 3px;
+                background: $primary-700;
+            }
+        }
+
+        .btn.pgn__avatar-button-avatar {
+            padding: 10px 21px 10px 8px !important;
+            background: transparent;
+            color: $primary;
+            border-color: $primary;
+            margin-left: 10px;
+            line-height: 25px;
+
+            &:hover {
+                background: $light-300;
+            }
+
+            .pgn__avatar {
+                width: 27px;
+                height: 27px;
+                margin-right: 7px;
+            }
+
+            .d-md-inline {
+                max-width: 120px;
+                overflow: hidden;
+                vertical-align: middle;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                text-transform: none;
+            }
+        }
     }
 
     form.masquerade-bar {
-        max-width: 1230px;
+        max-width: $container-width;
         margin: 0 auto;
+
+        @include media-breakpoint-down(xs) {
+            position: relative;
+            padding: 50px 10px 10px;
+        }
 
         .masquerade-form-label {
             padding-left: 0;
 
+            @include media-breakpoint-down(xs) {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                z-index: 2;
+            }
+
             & > .pgn__icon svg {
-                fill: #454545;
+                fill: $gray-700;
             }
         }
 
@@ -37,6 +124,34 @@
 
         .btn-brand {
             margin-right: 0 !important;
+        }
+    }
+
+    .course-list-container {
+        .pgn__card {
+            .pgn__card-header .pgn__card-header-actions {
+                margin-top: 23px;
+            }
+
+            .pgn__card-wrapper-image-cap.horizontal {
+                @include media-breakpoint-down(sm) {
+                    max-width: 100%;
+                    max-height: 300px;
+                }
+
+                .pgn__card-image-cap {
+                    @include media-breakpoint-down(sm) {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+
+        .pgn__action-row[data-test-id="CourseCardActions"] {
+            @include media-breakpoint-down(xs) {
+                flex-wrap: wrap;
+                width: 100%;
+            }
         }
     }
 }
