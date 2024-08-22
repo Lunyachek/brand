@@ -15,6 +15,8 @@ Removed:
 
 Added:
 =====
+* Optimize Gitlab CI scripts (RGOeX-26709)
+* Learner Dashboard MFE - improve header and responsive styles (RGOeX-26709)
 * Style openedX release label above the footer RG logo (RGInt-116)
 * Learner Record MFE - Stick footer to the bottom (RGOeX-26503)
 * Learner Record MFE - Change font size for Questions about Learner Records title (RGOeX-26503)
