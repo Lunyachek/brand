@@ -134,6 +134,11 @@
             }
 
             .pgn__card-wrapper-image-cap.horizontal {
+                // Note: temporary fix for paragon Card image stretching for Safari
+                // Paragon Issue: https://github.com/openedx/paragon/issues/3187
+                // MFE issue: https://github.com/openedx/frontend-app-learner-dashboard/issues/265
+                display: flex;
+
                 @include media-breakpoint-down(sm) {
                     max-width: 100%;
                     max-height: 300px;
