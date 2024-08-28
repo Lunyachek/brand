@@ -22,12 +22,12 @@
     "build_ci": "rm -rf ./dist && ./node_modules/.bin/fedx-scripts babel src --out-dir dist --source-maps --ignore **/*.test.jsx,**/__mocks__,**/__snapshots__,**/setupTest.js --copy-files && rm -rf dist/**/*.test.jsx && rm -rf dist/**/__snapshots__ && rm -rf dist/__mocks__"
   },
   "dependencies": {
-    "@edx/frontend-build": "^12.4.19"
+    "@edx/frontend-platform": "6.2.0",
+    "@openedx/frontend-build": "13.0.27"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.1",
     "@commitlint/config-conventional": "^17.4.0",
-    "@edx/frontend-build": "^9.2.2",
     "husky": "^8.0.3",
     "stylelint": "^14.15.0",
     "stylelint-config-standard-scss": "^6.1.0"

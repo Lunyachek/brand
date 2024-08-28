@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import { getConfig } from '@edx/frontend-platform';
 
 import messages from './messages';
