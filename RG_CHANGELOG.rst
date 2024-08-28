@@ -23,6 +23,7 @@ Added:
 
 Fixes:
 ======
+* Upgrade project dependencies (RGOeX-26785)
 * Temporary fix Paragon issue: Card component stretches image on Safari (RGOeX-26781)
     * This fix should be removed from theme when this `issue <https://github.com/openedx/frontend-app-learner-dashboard/issues/265>`_ will be solved and included in Git tag for current release
 * Remove additional scroll on the paragon Card component with custom font (RGOeX-26429)
