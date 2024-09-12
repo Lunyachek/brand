@@ -23,6 +23,7 @@ Added:
 
 Fixes:
 ======
+* Fix bugs that occurred after the footer was pinned to the bottom of the page (RGOeX-26794)
 * Fix footer to the bottom for different MFEs in Redwood release (RGOeX-26794)
 * Upgrade project dependencies (RGOeX-26785)
 * Temporary fix Paragon issue: Card component stretches image on Safari (RGOeX-26781)
