@@ -1,3 +1,10 @@
+.studio-header {
+    & + .container-fluid,
+    & + .m-0.mt-4.justify-content-center {
+        flex: 1 1 auto;
+    }
+}
+
 .settingsWidget .btn-inline.text-info-500 {
     color: $primary !important;
 
@@ -22,6 +29,7 @@
         }
 
         // ToDo: temporary fix of shrinking icon buttons (for palm and possibly quince RG releases only)
+
         button.btn-icon {
             flex-shrink: 0;
         }

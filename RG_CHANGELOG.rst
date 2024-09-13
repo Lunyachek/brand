@@ -15,6 +15,7 @@ Removed:
 
 Added:
 =====
+* Pin studio footer to the page bottom (RGOeX-26840)
 * Optimize Gitlab CI scripts (RGOeX-26709)
 * Learner Dashboard MFE - improve header and responsive styles (RGOeX-26709)
 * Style openedX release label above the footer RG logo (RGInt-116)
