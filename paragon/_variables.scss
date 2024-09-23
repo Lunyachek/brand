@@ -7,6 +7,11 @@ $link-color: $primary !default;
 $black: #000;
 $white: #fff;
 $inline-link-color: $primary;
+$icon-button-colors: (
+    "primary": $primary,
+    "secondary": $primary,
+    "dark": $primary,
+) !default;
 
 // common settings
 $container-width: 1230px;

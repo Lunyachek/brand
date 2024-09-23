@@ -15,6 +15,7 @@ Removed:
 
 Added:
 =====
+* Added brand color for different elements, e.g. buttons and links in Course Authoring (RGOeX-26851)
 * Pin studio footer to the page bottom (RGOeX-26840)
 * Optimize Gitlab CI scripts (RGOeX-26709)
 * Learner Dashboard MFE - improve header and responsive styles (RGOeX-26709)
