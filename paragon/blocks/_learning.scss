@@ -58,3 +58,7 @@ div[data-testid="exam-timer"] {
         flex-grow: 0 !important;
     }
 }
+
+.sequence-container > section.zindex-0.fixed-top {
+    z-index: 1030 !important;
+}
