@@ -54,3 +54,15 @@ body {
         background: #e1dddb;
     }
 }
+
+// This fix should be removed after we migrate to the redwood.3 release
+
+div[aria-label="Overwrite files"] .pgn__modal-body,
+div[aria-label="Configure teams"] .pgn__modal-body,
+div[aria-label="Configure progress"] .pgn__modal-body,
+div[aria-label="Configure wiki"] .pgn__modal-body,
+div[aria-label="Configure calculator"] .pgn__modal-body,
+div[aria-label="Configure Live"] .pgn__modal-body,
+.pgn__modal.configure-modal {
+    overflow: auto !important;
+}
