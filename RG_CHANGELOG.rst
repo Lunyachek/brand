@@ -24,6 +24,7 @@ Added:
 
 Fixes:
 ======
+* Fix overlapping of course content with notifications and discussions on mobile resolutions in the learning MFE (RGOeX-26846)
 * Remove horizontal scroll on the Learner Dashboard page (RGOeX-26822)
 * Fix bugs that occurred after the footer was pinned to the bottom of the page (RGOeX-26794)
 * Fix footer to the bottom for different MFEs in Redwood release (RGOeX-26794)
