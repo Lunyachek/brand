@@ -101,3 +101,32 @@
         }
     }
 }
+
+// Override pgn buttons color inside form control
+
+.pgn__form-control-decorator {
+    .btn-icon.btn-icon-primary,
+    .btn-icon.btn-icon-secondary {
+        color: $primary !important;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $primary !important;
+            border-color: $primary !important;
+            color: $white !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+// Group configurations links color
+
+.configuration-card-content a.text-info-500,
+.help-sidebar .sidebar-link {
+    color: $primary !important;
+
+    &:hover {
+        color: darken($primary, 15%) !important;
+    }
+}
