@@ -11,6 +11,7 @@ and this project adheres to customized Semantic Versioning e.g.: `quince-rg.1`
 
 Removed:
 ========
+* Remove duplicated fix with upstram for fonts in discussions (RGOeX-26113)
 * Removed styles for learning MFE introduced in RGOeX-25939 - consider skipping both commits when rebasing on the new release (RGOeX-26452)
 
 Added:
