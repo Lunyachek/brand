@@ -9,6 +9,9 @@ and this project adheres to customized Semantic Versioning e.g.: `quince-rg.1`
 [Unreleased]
 ************
 
+[redwood-rg.1] 2024-10-04
+*************************
+
 Removed:
 ========
 * Remove duplicated fix with upstream in profile (RGOeX-26109)
