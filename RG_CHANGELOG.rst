@@ -30,6 +30,7 @@ Added:
 
 Fixes:
 ======
+* Fix for centering elements on the Authn page (RGOeX-26888)
 * Fix content overflow in modal windows in Course Authoring (RGOeX-26842 and RGOeX-26807)
     * This fix should be removed after we migrate to the redwood.3 release
 * Fix overlapping of course content with notifications and discussions on mobile resolutions in the learning MFE (RGOeX-26846)
